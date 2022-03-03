@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+  <tlib-version>1.0</tlib-version>
+  <short-name>fn</short-name>
+  <uri>/WEB-INF/tlds/Hello</uri>
+  <function>
+      <name>sayHello</name>
+      <function-class>com.vc.function.Hello</function-class>
+      <function-signature>java.lang.String sayHello(java.lang.String)</function-signature>
+  </function>  
+  <function>
+      <name>showList</name>
+      <function-class>com.vc.function.Hello</function-class>
+      <function-signature>java.util.List showList()</function-signature>
+  </function> 
+  <function>
+      <name>showEmployee</name>
+      <function-class>com.vc.function.Hello</function-class>
+      <function-signature>java.util.List showEmployee()</function-signature>
+  </function>  
+</taglib>
